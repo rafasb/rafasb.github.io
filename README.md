@@ -1,2 +1,2 @@
-# rafasb.github.io
-Web para recopilar documentación y proyectos personales
+# web
+Web de presentación de contenidos y proyectos
