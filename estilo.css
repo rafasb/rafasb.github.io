@@ -2,29 +2,40 @@ body {
 	background: #262a2b;
 }
 
-#particles {
-	padding: 2rem;
-	display: flex;
-	flex-direction: column;
-	gap: 4rem;
+#envoltorio {
+	position: absolute;
+	/* padding: 2rem; */
+	/* display: flex;
+	flex-direction: column; */
+	left: 0;
+    top: 5%;
+    padding: 0 20px;
+    width: 100%;
+	/* gap: 4rem; */
 }
 
-#particles h1 {
-	position: absolute;
+canvas{
+    height:200vh;
+}
+
+#titulo {
 	text-align: center;
-	font-size: 7em;
 	margin-bottom: 0;
 	margin-top: 0;
-	line-height: 1;
+	line-height: 0.5;
 	text-decoration: none;
 	color: #fff;
 	font-family: Iceland;
 	animation: neon2 1.5s ease-in-out infinite alternate;
 }
 
-/* canvas{
-    height:100vh;
-} */
+#titulo h1 {
+	font-size: 7em;
+}
+
+#titulo h2 {
+	font-size: 4em;
+}
 
 /*glow*/
 
@@ -96,7 +107,7 @@ body {
   /*Oculta el título en pantallas estrechas*/
 
 @media screen and (max-width: 600px) {
-	#particles {
+	#titulo {
 	  visibility: hidden;
 	  clear: both;
 	  float: left;
@@ -107,7 +118,6 @@ body {
   }
 
 .tilesWrap {
-	position: absolute;
 	padding: 0;
 	margin: 50px auto;
 	list-style: none;
