@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
       dotColor: '#5cbdaa',
       lineColor: '#5cbdaa'
     });
-    var intro = document.getElementById('intro');
-    intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
+    // var intro = document.getElementById('intro');
+    // intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
   }, false);
   
   
@@ -104,7 +104,10 @@ document.addEventListener('DOMContentLoaded', function () {
        */
       function styleCanvas() {
         canvas.width = element.offsetWidth;
-        canvas.height = element.offsetHeight;
+        // canvas.height = document.height;
+        canvas.height = window.outerHeight;
+        // canvas.height = window.innerHeight;
+        // canvas.height = element.offsetHeight;
         ctx.fillStyle = options.dotColor;
         ctx.strokeStyle = options.lineColor;
         ctx.lineWidth = options.lineWidth;

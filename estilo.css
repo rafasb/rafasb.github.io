@@ -1,5 +1,8 @@
 body {
 	background: #262a2b;
+	width:  100%;
+	height: 100%;
+	margin: 0;
 }
 
 #envoltorio {
@@ -12,10 +15,6 @@ body {
     padding: 0 20px;
     width: 100%;
 	/* gap: 4rem; */
-}
-
-canvas{
-    height:200vh;
 }
 
 #titulo {
