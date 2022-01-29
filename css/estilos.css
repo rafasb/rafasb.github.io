@@ -146,7 +146,7 @@
     line-height: 75px;
 }
 
-.mail i {
+.mail i,.icono i {
     margin-right: 10px;
     margin-left: 10px;
 }
