@@ -102,5 +102,16 @@ const proyectos = [
         "fecha": "01/01/2022",
         "tags": ["Homelab","Desarrollo"],
         "img": "img-server",
+    },
+    {
+        "indice": "10",
+        "url": "https://github.com/rafasb/Simplest-Traefik-Proxy-Manager-STPM",
+        "titulo": "Simplest Traefik Proxy Manager",
+        "subtitulo": "Despliegue de un proxy inverso con Traefik y aplicación de gestión de proxy.",
+        "explicacion": "El proyecto se basa en un contenedor con Traefik y otro con la aplicación de gestión de proxy inverso.",
+        "detalle": "Es un ejemplo práctico y sencillo para desplegar un proxy inverso y gestionar los servicios que se exponen a través de él.",
+        "fecha": "05/03/2025",
+        "tags": ["Seguridad","Homelab", "Desarrollo"],
+        "img": "img-coding",
     }
 ]
